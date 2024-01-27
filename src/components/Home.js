@@ -8,7 +8,7 @@ const Home = ({selectedItem}) => {
     <div id='home'>
       <div className='flex justify-center flex-wrap flex-shrink-1 items-center sm:w-full sm:h-[750px] mt-20 sm:mt-0 w-full h-auto gap-8'>
         <div>
-          <img src={image} className='w-[300px] h-[300px] rounded-full flex border-white border-[30px] flex-shrink-1 '/>
+          <img src={image} alt="image" className='w-[300px] h-[300px] rounded-full flex border-white border-[30px] flex-shrink-1 '/>
         </div>
         <div className='text-white flex flex-col items-center'>
           <h2 className='font-bold text-4xl'>Hello I'm</h2>

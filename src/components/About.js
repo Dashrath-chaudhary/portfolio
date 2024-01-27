@@ -14,7 +14,7 @@ const About = () => {
         </div>
         <div className='w-full flex h-auto justify-center flex-wrap gap-10 mt-20 items-center'>
             <div className='w-auto h-auto sm:border-b-[0px] border-b-[0.5px]  sm:border-r-[0.5px] px-10 flex flex-col flex-grow-1 flex-shrink-1 gap-y-4 items-center'>
-                <img src={image} className='w-[200px] flex h-[200px] rounded-full border-[15px]'/>
+                <img src={image} alt="image" className='w-[200px] flex h-[200px] rounded-full border-[15px]'/>
                 <div className='flex flex-col items-center'>
                     <h2>Dashrath Chaudhary</h2>
                     <div className='w-[60px] h-1 rounded-md bg-white'></div>

@@ -29,7 +29,7 @@ const Navbarr = (props) => {
          
          {
 
-          <ul ref={sidebarRef} className={`fixed w-2/4 flex flex-col sm:hidden h-screen -top-2 bg-gray-800 items-center justify-around  transition-all ease-in-out duration-300 ${nav ? "translate-x-0":"translate-x-[-900px]"}`}>
+          <ul ref={sidebarRef} className={`fixed w-2/4 flex flex-col sm:hidden h-dvh -top-2 bg-gray-800 items-center justify-around  transition-all ease-in-out duration-300 ${nav ? "translate-x-0":"translate-x-[-900px]"}`}>
             
             <div className='flex items-center gap-2'>
               <p className='ml-8 text-white text-2xl font-extrabold'>Portfolio</p> 
