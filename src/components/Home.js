@@ -5,12 +5,12 @@ const Home = ({selectedItem}) => {
 
 
   return (
-    <div id='home'>
-      <div className='flex justify-center flex-wrap flex-shrink-1 items-center sm:w-full sm:h-[750px] mt-10 sm:mt-0 w-full h-screen sm:gap-8'>
-        <div>
-          <img src={image} alt="image" className='w-[300px] h-[300px]  rounded-full flex border-white border-[30px] flex-shrink-1 '/>
+    <div id='home flex w-screen h-screen'>
+      <div className='flex justify-center flex-wrap flex-shrink-1 items-center w-full sm:h-[750px] mt-10 sm:mt-0 h-screen sm:gap-8'>
+        <div className=''>
+          <img src={image} alt="image" className='w-[300px] h-[300px] rounded-full bg-cover flex border-white border-[30px] flex-shrink-1 '/>
         </div>
-        <div className='text-white flex flex-col items-center'>
+        <div className='text-white h-[200px]  flex flex-col items-center'>
           <h2 className='font-bold text-4xl'>Hello I'm</h2>
           <h2 className='font-bold text-4xl'>Dashrath Chaudhary</h2>
           <p className='mt-2'>I am <span className='underline underline-offset-1'>Web-Developer</span></p>
