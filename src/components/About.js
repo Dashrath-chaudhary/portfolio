@@ -43,7 +43,7 @@ const About = () => {
                     Programmer.Throughout my career, I have worked on various 
                     projects and initiatives that have helped me Sharp my skills
                     in web development. I have extensive knowledge of programming 
-                    languages including C++, java, Python, Javascript, PHP, Node js,
+                    languages including C++, java, Javascript, Node js,
                     ReactJs, NextJS etc. I have used my programming skills to develop
                     many project which given below.
                 </p>

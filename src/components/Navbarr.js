@@ -22,7 +22,7 @@ const Navbarr = (props) => {
     <div className='flex w-full z-50 h-[60px] text-white fixed justify-between items-center bg-gray-800'>
       {<ul
         ref={sidebarRef}
-        className={`fixed w-2/4  flex flex-col z-50 sm:hidden h-screen top-0 bg-gray-800 items-center justify-around  transition-all ease-in-out duration-300 ${
+        className={`fixed w-2/4  flex flex-col z-50  sm:hidden h-screen top-0 bg-gray-800 items-center justify-around  transition-all ease-in-out duration-300 ${
           nav ? "translate-x-0,overflow-hidden,bg-fixed" : "translate-x-[-900px]"
         }`}
       >
@@ -43,6 +43,7 @@ const Navbarr = (props) => {
       </ul>}
 
       <div className='w-full flex items-center justify-between'>
+      
         <div className='ml-8 font-bold text-2xl'>Portfolio</div>
 
         <ul className='gap-4 mr-4 hidden bg-zinc- rounded-md sm:flex'>
