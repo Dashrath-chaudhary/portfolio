@@ -10,7 +10,7 @@ const Home = ({selectedItem}) => {
         <div>
           <img src={image} alt="image" className='w-[300px] h-[300px]  rounded-full flex border-white border-[30px] flex-shrink-1 '/>
         </div>
-        <div className='text-white flex flex-col mt-[-100px] sm:mt-0 items-center'>
+        <div className='text-white flex flex-col items-center'>
           <h2 className='font-bold text-4xl'>Hello I'm</h2>
           <h2 className='font-bold text-4xl'>Dashrath Chaudhary</h2>
           <p className='mt-2'>I am <span className='underline underline-offset-1'>Web-Developer</span></p>
