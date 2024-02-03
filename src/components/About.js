@@ -6,7 +6,7 @@ import { MdEmail } from "react-icons/md";
 
 const About = () => {
   return (
-    <div id='about' className='text-white w-full sm:h-[750px] h-auto'>
+    <div id='about' className='text-white w-full sm:h-[750px] mt-0 sm:mt-10 h-auto'>
         <div className='flex flex-col items-center'>
             
             <h1 className='text-2xl font-bold mt-20 text-center'>ABOUT ME</h1>
