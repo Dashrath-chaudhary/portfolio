@@ -23,7 +23,7 @@ const Navbarr = (props) => {
     <div className='flex w-full z-50 h-[60px] text-white fixed bg-gray-800'>
       {<div
         ref={sidebarRef}
-        className={`fixed w-2/4  flex flex-col z-50 md:hidden h-screen top-0 bg-gray-800 gap-20 transition-all ease-in-out duration-300 ${
+        className={`fixed w-2/4  flex flex-col z-50 md:hidden overflow-hidden h-screen top-0 bg-gray-800 gap-20 transition-all ease-in-out duration-300 ${
           nav ? "translate-x-0 overflow-y-hidden" : "translate-x-[-900px]"
         }`}
       >
