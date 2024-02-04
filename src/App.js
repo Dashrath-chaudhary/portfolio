@@ -41,12 +41,12 @@ function App() {
 
   return (
     <div className='h-screen w-screen bg-hero-pattern z-20 bg-no-repeat bg-cover overflow-x-hidden scroll-smooth'>
-      <div className='flex flex-col scroll-smooth'>
+      <div className={`flex flex-col scroll-smooth ${nav ? "fixed overflow-hidden":""}`}>
         <div>
           {/* Pass nav, setNav, and navHandler as props to the Navbarr component */}
           <Navbarr nav={nav} setNav={setNav} navHandler={navHandler} navItems={navItems} />
         </div>
-        <div className={`${nav ? "fixed overflow-hidden":""}`}>
+        <div>
           <Home selectedItem={selectedItem} />
           <About />
           <TimeLine />
