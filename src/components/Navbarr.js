@@ -17,19 +17,20 @@ const Navbarr = (props) => {
       document.removeEventListener("mousedown", handleClickOutside);
     };
   }, [setNav]);
+  
 
   return (
     <div className='flex w-full z-50 h-[60px] text-white fixed justify-between items-center bg-gray-800'>
       {<ul
         ref={sidebarRef}
         className={`fixed w-2/4  flex flex-col z-50   h-screen top-0 bg-gray-800 items-center justify-around  transition-all ease-in-out duration-300 ${
-          nav ? "translate-x-0,overflow-hidden,fixed" : "translate-x-[-900px]"
+          nav ? "translate-x-0,bg-fixed,overflow-hidden" : "translate-x-[-900px]"
         }`}
       >
         <div className='flex items-center gap-2'>
           <p className='ml-8 text-white text-2xl font-extrabold'>Portfolio</p>
         </div>
-
+        
         {navItems.map((item) => (
           <a
             href={`#${item.title}`}

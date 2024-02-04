@@ -5,7 +5,7 @@ const Home = ({selectedItem}) => {
 
 
   return (
-    <div id='home' className='w-screen h-screen'>
+    <div id='home' className={`w-screen h-screen`}>
       <div className='flex justify-center flex-wrap flex-shrink-1 items-center w-full sm:h-[750px] mt-4 sm:mt-0 h-screen sm:gap-8'>
         <div className=''>
           <img src={image} alt="image" className='w-[300px] h-[300px] rounded-full bg-cover flex border-white border-[30px] flex-shrink-1 '/>

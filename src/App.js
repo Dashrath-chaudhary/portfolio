@@ -46,7 +46,7 @@ function App() {
           {/* Pass nav, setNav, and navHandler as props to the Navbarr component */}
           <Navbarr nav={nav} setNav={setNav} navHandler={navHandler} navItems={navItems} />
         </div>
-        <div className={`${nav ? 'no-scroll':''}`}>
+        <div className={`${nav ? "fixed overflow-hidden":""}`}>
           <Home selectedItem={selectedItem} />
           <About />
           <TimeLine />
