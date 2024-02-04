@@ -24,7 +24,7 @@ const Navbarr = (props) => {
       {<ul
         ref={sidebarRef}
         className={`fixed w-2/4  flex flex-col z-50   h-screen top-0 bg-gray-800 items-center justify-around  transition-all ease-in-out duration-300 ${
-          nav ? "translate-x-0,bg-fixed,overflow-hidden" : "translate-x-[-900px]"
+          nav ? "translate-x-0 overflow-y-hidden" : "translate-x-[-900px]"
         }`}
       >
         <div className='flex items-center gap-2'>
