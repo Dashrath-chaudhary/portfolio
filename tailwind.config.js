@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'hero-pattern': "url('./assets/Meteor (6).svg')",
+        'hero-pattern': "url('./assets/Shiny Overlay.svg')",
       }
     },
   },
